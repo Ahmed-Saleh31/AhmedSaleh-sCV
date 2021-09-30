@@ -1,0 +1,317 @@
+/*..................................tag style.........................................*/
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #316B83;
+}
+
+h2 {
+  font-size: 35px;
+  color: #334756;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  width: 25%;
+  border-color: grey;
+  border-width: 10px;
+  margin: 50px auto;
+}
+
+p {
+  margin-top: -10px;
+  line-height: 2;
+}
+
+ul {
+  margin-top: -10px;
+  line-height: 2;
+}
+
+a {
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #EAF6F6;
+}
+
+/*..................................class style.......................................*/
+/*..........................TOP......................*/
+.div-top {
+  background-color: #E8F6EF;
+  padding-top: 100px;
+  background-image: url();
+  /*border-style: dashed solid;
+          border-color: #FF7777;
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: 100%;
+          margin-bottom: 20px;*/
+}
+
+.top-cloud {
+  position: absolute;
+  right: 100px;
+  top: 50px;
+  width:200px;
+}
+.bottom-cloud {
+position: absolute;
+left: 100px;
+bottom: 50px;
+width:200px;
+}
+.hi {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 70px;
+  font-family: 'Sacramento', cursive;
+  color: #334756;
+}
+
+.my_name {
+  margin-top: 50px;
+  margin-bottom: 0;
+  font-size: 70px;
+  font-family: 'Sacramento', cursive;
+  color: #334756;
+}
+
+
+
+.fbird {
+  width: 70px;
+  position: absolute;
+  top: 50px;
+  right: 480px;
+}
+
+.sbird {
+  width: 70px;
+  position: absolute;
+  right: 80px;
+  top: 150px;
+}
+
+.tbird {
+  width: 70px;
+  position: absolute;
+  top: 100px;
+  left: 80px;
+}
+
+.xbird {
+  width: 70px;
+  position: absolute;
+  top: 150px;
+  left: 500px;
+}
+
+.computer-engineer {
+  font-weight: normal;
+  margin-top: 2px;
+}
+
+.icon {
+  margin-bottom: 40px;
+}
+
+/*........................profile...................*/
+.div-profile {
+  width: 50%;
+  margin: 50px auto 100px auto;
+}
+.myphoto:hover{
+  transform: scale(1.2);
+}
+.intro {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+/*.......................HIGHLIGHTS...................*/
+.div-highlight {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 100px auto;
+}
+
+.para-highlight {
+  text-align: left;
+}
+
+.highlight-img {
+  width: 25%;
+  margin-top: 130px;
+  float: right;
+}
+
+/*.......................EDUCATIONS...................*/
+.div-education {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 150px auto;
+}
+
+.para-education {
+  text-align: left;
+}
+
+.edu-img {
+  width: 25%;
+  margin: 0 30px 10px 10px;
+  float: left;
+}
+
+/*........................LANGUAGE...................*/
+.div-language {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 130px auto;
+}
+
+.para-language {
+  text-align: left;
+}
+
+.language-img {
+  width: 25%;
+  margin-top: -30px;
+  float: right;
+}
+
+/*....................COMPUTER SKILLS...................*/
+.div-computer {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 130px auto;
+}
+
+.para-computer {
+  text-align: left;
+}
+
+.computer-img {
+  width: 25%;
+  margin: 20px 30px 10px 10px;
+  float: left;
+}
+
+/*................COURSES AND CERTIFICATES...................*/
+.div-courses {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 130px auto;
+}
+
+.para-courses {
+  text-align: left;
+}
+
+.course-img {
+  width: 25%;
+  margin: 10px auto auto 10px;
+  float: right;
+}
+
+/*.................INTERESTS AND ACTIVITIES...................*/
+.activties {
+  text-align: left;
+  width: 50%;
+  margin: 100px auto 50px auto;
+}
+
+.para-activties {
+  text-align: left;
+  display: inline-block;
+}
+
+.activties-img {
+  width: 25%;
+  margin: 0 30px 20px auto;
+  float: left;
+}
+
+/*.................CONTACT DETAILS...................*/
+.BUTTON {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #A8A8A9);
+   background-image: -moz-linear-gradient(top, #66BFBF, #A8A8A9);
+   background-image: -ms-linear-gradient(top, #66BFBF, #A8A8A9);
+   background-image: -o-linear-gradient(top, #66BFBF, #A8A8A9);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #A8A8A9);
+   -webkit-border-radius: 56px;
+   -moz-border-radius: 56px;
+   border-radius: 56px;
+   color: #FFFFFF;
+   font-family: Arial;
+   font-size: 25px;
+   font-weight: 600;
+   padding: 24px;
+   -webkit-box-shadow: 0 0 0 0 #000000;
+   -moz-box-shadow: 0 0 0 0 #000000;
+   box-shadow: 0 0 0 0 #000000;
+   text-shadow: 3px 3px 0 #000000;
+   border: solid #DAEEFF 3px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON:hover {
+   border: solid #0059A0 0;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #568ECC);
+   background-image: -moz-linear-gradient(top, #66BFBF, #568ECC);
+   background-image: -ms-linear-gradient(top, #66BFBF, #568ECC);
+   background-image: -o-linear-gradient(top, #66BFBF, #568ECC);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #568ECC);
+   -webkit-border-radius: 59px;
+   -moz-border-radius: 59px;
+   border-radius: 59px;
+   text-decoration: none;
+}
+
+.hr_bottom {
+  border-style: none;
+  border-top-style: dashed;
+  width: 100%;
+  border-color: grey;
+  border-width: 5px;
+  margin-bottom: 10px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.phone {
+  color: #004fdec4;
+  margin: 10px;
+  font-size: 1rem;
+}
+
+.contact-me {
+  color: #E8F6EF;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.gmail {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  padding: 5px;
+}
+.copyright{
+  color: #EAf6f6;
+  font-size: 0.75rem;
+}
